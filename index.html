@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="start" id="startScreen">
+        <div class="overlay">
+            <span>Introduce your names</span>
+            <div class="name-inputs">
+                <input type="text" name="" id="player1">
+                <input type="text" name="" id="player2">
+            </div>
+            <button id="startButton">Start game</button>
+        </div>
+    </div>
+    <div class="main-screen">
+        <div class="title">
+            <span id="namePlayer1"></span>
+            <span>Tic Tac Toe</span>
+            <span id="namePlayer2"></span>
+        </div>
+        <div class="gameboard" id="gameboard">
+            <div class="cell">
+                <span class="marker" id="0X">X</span>
+                <span class="marker" id="0O">O</span>
+            </div>
+            <div class="cell">
+                <span class="marker" id="1X">X</span>
+                <span class="marker" id="1O">O</span>
+
+            </div>
+            <div class="cell">
+                <span class="marker" id="2X">X</span>
+                <span class="marker" id="2O">O</span>
+
+            </div>
+            <div class="cell">
+                <span class="marker" id="3X">X</span>
+                <span class="marker" id="3O">O</span>
+
+            </div>
+            <div class="cell">
+                <span class="marker" id="4X">X</span>
+                <span class="marker" id="4O">O</span>
+
+            </div>
+            <div class="cell">
+                <span class="marker" id="5X">X</span>
+                <span class="marker" id="5O">O</span>
+
+            </div>
+            <div class="cell">
+                <span class="marker" id="6X">X</span>
+                <span class="marker" id="6O">O</span>
+
+            </div>
+            <div class="cell">
+                <span class="marker" id="7X">X</span>
+                <span class="marker" id="7O">O</span>
+
+            </div>
+            <div class="cell">
+                <span class="marker" id="8X">X</span>
+                <span class="marker" id="8O">O</span>
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="end" id="endScreen">
+        <div class="overlay">
+            <span>Good match! The winner is...</span>
+            <span id="winner"></span>
+            <button id="reset">Reset game</button>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
