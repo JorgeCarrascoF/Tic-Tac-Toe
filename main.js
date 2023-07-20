@@ -32,7 +32,7 @@ const Gameboard = (()=> {
         return gameboardArray[cell];
     }
 
-    return {cellValue, markCell, showArray};
+    return {cellValue, markCell, gameboardArray};
 })()
 
 const playerFactory = (name, marker) => {
